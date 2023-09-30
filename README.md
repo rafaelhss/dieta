@@ -1,4 +1,3 @@
-# Todo List with Sticky Notes(CPC)
+# Conrrole da dieta
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/rafaelhss/pen/OJrEaWz](https://codepen.io/rafaelhss/pen/OJrEaWz).
-
+disciplina eh liberdade
