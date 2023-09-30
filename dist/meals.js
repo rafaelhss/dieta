@@ -103,7 +103,7 @@
 	};
 
 
-
+var countItensId = 0;
 getMeals().forEach(mealElement => {
 	//console.log(mealElement)
 
@@ -115,11 +115,13 @@ getMeals().forEach(mealElement => {
 		var option = document.createElement("li");
 		option.classList.add("big");
 		option.appendChild(document.createTextNode(mealElement.nome));
+		option.id = countItensId++;
 		var itens = document.createElement("ul");
 
 		optionList.forEach(optionText =>{
 			var item = document.createElement("li");
 			item.appendChild(document.createTextNode(optionText));
+			item.id = countItensId++;
 			itens.appendChild(item);
 		})
 		option.appendChild(itens);
