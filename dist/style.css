@@ -39,7 +39,7 @@ h1 {
   position: relative;
   display: flex;
   align-items: center;
-  font-size: 4rem;
+  font-size: 8rem;
 }
 h1::before, h1::after {
   content: "";
@@ -72,6 +72,8 @@ ul:not(ul ul) > li {
   cursor: pointer;
   position: relative;
   transition: transform 0.3s;
+  max-width: 80%;
+  max-width: 80vw;
 }
 ul:not(ul ul) > li::after {
   content: "";
