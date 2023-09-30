@@ -8,7 +8,8 @@
 					[
 						"Granola (2 col sopa)",
 						"Protein veg (1 scoop)",
-						"Fruta (2)"
+						"Fruta",
+						"Fruta"
 					]
 				]
 			},
@@ -20,8 +21,10 @@
 						"Fruta (1) ou Bananadinha (1)"
 					],
 					[
-						"Bisc de Arroz (2)",
-						"Pasta de amendoim (1 col cha cada)"
+						"Bisc de Arroz",
+						"Pasta de amendoim (1 col cha)",
+						"Bisc de Arroz",
+						"Pasta de amendoim (1 col cha)"
 					]
 					
 				]
@@ -30,7 +33,8 @@
 				nome:"Lanche Antes do treino",
 				itens:[
 					[
-						"Fruta (2) ou Suco uva (200 ml)",
+						"Fruta ou Suco uva (200 ml)",
+						"Fruta ou Suco uva (200 ml)",
 						"Granola (2 col de sopa)",
 						"Protein Veg(2 col sopa)"		
 					]
@@ -40,11 +44,11 @@
 				nome:"Almoço 12:30 – 14:00",
 				itens:[
 					[
-						"Vegetal A: à vontade <br>ou Tabule (1 col servir)",
+						"Vegetal A: à vontade ou Tabule (1 col servir)",
 						"Vegetal B (3 col de sopa)",
-						"Arroz integral, Batata doce, <br>Aipim, Cará, Inhame, <br>Macarrão integral (4 de sopa)",
+						"Arroz integral, Batata doce, Aipim, Cará, Inhame, Macarrão integral (4 de sopa)",
 						"Feijão ou Leguminosas (2 conchas)",
-						"Protein Veg (1 scoop) <br>ou Tofu (100g) <br>ou Cogumelo (2 col)"
+						"Protein Veg (1 scoop) ou Tofu (100g) ou Cogumelo (2 col)"
 					]
 				]	
 			},
@@ -52,7 +56,8 @@
 				nome:"Lanche 16:00 - 16:30",
 				itens:[
 					[
-						"Fruta (2) ou Suco  uva (200 ml)",
+						"Fruta ou Suco  uva (200 ml)",
+						"Fruta ou Suco  uva (200 ml)",
 						"Granola (2 col sopa)",
 						"Protein Veg(2 col sopa)"
 					],
@@ -73,7 +78,7 @@
 				itens:[
 					[
 						"Sopa de legumes (1 prato de sopa cheio)",
-			"Tofu (100g) <br>ou Cogumelo (2 col sopa) <br>ou Protein Veg (1 scoop) <br>ou Feijão ou Leguminosas (2 conchas)"
+			"Tofu (100g) ou Cogumelo (2 col sopa) ou Protein Veg (1 scoop) ou Feijão ou Leguminosas (2 conchas)"
 					],
 					[
 						"Igual ao almoço (mesma quantidade)"
@@ -87,15 +92,16 @@
 						"Sopa de legumes (2 conchas)"
 					],
 					[
-						"Vegetal A e B: à vontade <br>ou Tabule (1 col servir)",
-						"Arroz integral, Batata doce, <br>Aipim, Cará, Inhame, <br>Macarrão integral (2 sopa)",
+						"Vegetal A e B: à vontade ou Tabule (1 col servir)",
+						"Arroz integral, Batata doce, Aipim, Cará, Inhame, Macarrão integral (2 sopa)",
 						"Feijão ou Leguminosas (1 concha)",
-						"Protein Veg (1 col sopa) <br>ou Tofu (50g) ou Cogumelo (1 col)"
+						"Protein Veg (1 col sopa) ou Tofu (50g) ou Cogumelo (1 col)"
 					],
 					[
 						"Guacamole (4 col  sopa)",
 						"Queijo vegano (2 fatias)",
-						"Bolacha arroz (2)"
+						"Bolacha arroz",
+						"Bolacha arroz"
 					]
 				]	
 			}
