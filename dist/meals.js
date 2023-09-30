@@ -108,30 +108,31 @@ function getMeals(){
 	]
 };
 
-
-
+var countItensId = 0;
 getMeals().forEach(mealElement => {
-//console.log(mealElement)
+	//console.log(mealElement)
 
 
-var meal = document.createElement("ul");
-meal.classList.add("meal");
+	var meal = document.createElement("ul");
+	meal.classList.add("meal");
 
-mealElement.itens.forEach(optionList => {
-	var option = document.createElement("li");
-	option.classList.add("big");
-	option.appendChild(document.createTextNode(mealElement.nome));
-	var itens = document.createElement("ul");
+	mealElement.itens.forEach(optionList => {
+		var option = document.createElement("li");
+		option.classList.add("big");
+		option.appendChild(document.createTextNode(mealElement.nome));
+		option.id = countItensId++;
+		var itens = document.createElement("ul");
 
-	optionList.forEach(optionText =>{
-		var item = document.createElement("li");
-		item.appendChild(document.createTextNode(optionText));
-		itens.appendChild(item);
-	})
-	option.appendChild(itens);
-	meal.appendChild(option);
-})  
-		
-document.getElementById("content").appendChild(meal);
+		optionList.forEach(optionText =>{
+			var item = document.createElement("li");
+			item.appendChild(document.createTextNode(optionText));
+			item.id = countItensId++;
+			itens.appendChild(item);
+		})
+		option.appendChild(itens);
+		meal.appendChild(option);
+	})  
+			
+	document.getElementById("content").appendChild(meal);
 
 });

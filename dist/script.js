@@ -28,15 +28,15 @@ function changeMeal(meal){
 
 }
 function updateStorage(id, done){
-	
+	console.log(arguments)
 	var dones = JSON.parse(localStorage.getItem("dones"));
 	dones ? console.log("dones ok") : dones = [];
 	const idx = dones.indexOf(id);
 	idx  === -1 && done ? dones.push(id) : dones.splice(idx,1); 
 	
-	//dones ? console.log("  idx:" + dones.indexOf(id)) : console.log("dones null")
+	dones ? console.log("id: " + id + "  idx:" + dones.indexOf(id)) : console.log("dones null")
 	localStorage.setItem("dones", JSON.stringify(dones));
-	//console.log("st: " + JSON.parse(localStorage.getItem("dones")) )
+	console.log("st: " + JSON.parse(localStorage.getItem("dones")) )
 }
 function load(){
 	console.log("loading")
@@ -45,7 +45,7 @@ function load(){
 							document.getElementById(id).classList.add("done")
 							changeMeal(document.getElementById(id).closest('.meal'))
 						}) 
-		: updateStorage(-1)
+		: localStorage.setItem("dones", JSON.stringify([]));
 }
 checkDay();
 load();
