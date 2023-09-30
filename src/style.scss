@@ -67,7 +67,7 @@ ul:not(ul ul) {
 		text-decoration: line-through;
 	}
 
-	> li {
+	> li{
 		--levitate: 0;
 		padding: 1.2rem 2rem;
 		background-color: pink;
@@ -107,11 +107,6 @@ ul:not(ul ul) {
 
 		&.big {
 			background-color: lightgreen;
-			padding: 1.6rem 2rem;
-			padding-bottom: 3rem;
-		}
-		&.bigdone {
-			background-color: lightgray;
 			padding: 1.6rem 2rem;
 			padding-bottom: 3rem;
 		}

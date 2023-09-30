@@ -103,11 +103,6 @@ ul:not(ul ul) > li.big {
   padding: 1.6rem 2rem;
   padding-bottom: 3rem;
 }
-ul:not(ul ul) > li.bigdone {
-  background-color: lightgray;
-  padding: 1.6rem 2rem;
-  padding-bottom: 3rem;
-}
 ul:not(ul ul) > li ul {
   margin-top: 0.5em;
   margin-left: 1em;
