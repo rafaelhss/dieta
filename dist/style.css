@@ -74,6 +74,8 @@ ul:not(ul ul) > li {
   transition: transform 0.3s;
   max-width: 80%;
   max-width: 80vw;
+  min-width: 50%;
+  min-width: 50vw;
 }
 ul:not(ul ul) > li::after {
   content: "";

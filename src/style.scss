@@ -78,6 +78,8 @@ ul:not(ul ul) {
 		transition: transform 0.3s;
 		max-width: 80%; //fallback
    		max-width: 80vw;
+		min-width: 50%; //fallback
+   		min-width: 50vw;
 
 		&::after {
 			content: '';
