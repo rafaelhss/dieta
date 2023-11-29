@@ -3,57 +3,64 @@
 function getMeals(){
 	return [
 		{
-			nome:"Cafe 8:00",
+			nome:"Cafe 9:00",
 			itens:[
 				[
 					"Granola (2 col sopa)",
 					"Protein veg (1 scoop)",
 					"Fruta",
 					"Fruta"
-				]
-			]
-		},
-		{
-			nome:"Lanche 10:00",
-			itens:[
-				[
-					"Castanha Para (3) ou Caju(6)",
-					"Fruta (1) ou Bananadinha (1)"
 				],
 				[
-					"Bisc de Arroz",
-					"Pasta de amendoim (1 col cha)",
-					"Bisc de Arroz",
-					"Pasta de amendoim (1 col cha)"
+					"Aveia (2 sopa)",
+					"Chia (1 sobremesa) ",
+					"Leite veg (150ml)",
+					"Protein veg (1 scoop)",
+					"Fruta"
 				]
-				
 			]
 		},
 		{
-			nome:"Lanche Antes do treino",
+			nome:"Lanche 11:00 Pre treino",
 			itens:[
 				[
-					"Fruta ou Suco uva (200 ml)",
-					"Fruta ou Suco uva (200 ml)",
-					"Granola (2 col de sopa)",
-					"Protein Veg(2 col sopa)"		
+					"Granola (2 col sopa)",
+					"Protein veg (2 col sopa)",
+					"Fruta",
+					"Fruta"
+				],
+				[
+					"Granola (2 col sopa)",
+					"Protein veg (2 col sopa)",
+					"Fruta",
+					"Aveia (2 sopa)",
+					"Chia (1 sobremesa) ",
+					"Leite veg (150ml)"
+				]
+			]
+		},
+		{
+			nome:"Treino 12:30",
+			itens:[
+				[
+					"LL ou SmartFit"		
 				]
 			]	
 		},
 		{
-			nome:"Almoço 12:30 – 14:00",
+			nome:"Almoço 14:00",
 			itens:[
 				[
 					"Vegetal A: à vontade ou Tabule (1 col servir)",
 					"Vegetal B (3 col de sopa)",
 					"Arroz integral, Batata doce, Aipim, Cará, Inhame, Macarrão integral (4 de sopa)",
 					"Feijão ou Leguminosas (2 conchas)",
-					"Protein Veg (1 scoop) ou Tofu (100g) ou Cogumelo (2 col)"
+					"Protein Veg (1.5 scoop) ou Tofu (100g) ou Cogumelo (2 col)"
 				]
 			]	
 		},
 		{
-			nome:"Lanche 16:00 - 16:30",
+			nome:"Lanche 16:30",
 			itens:[
 				[
 					"Fruta ou Suco  uva (200 ml)",
@@ -61,20 +68,15 @@ function getMeals(){
 					"Granola (2 col sopa)",
 					"Protein Veg(2 col sopa)"
 				],
+				
 				[
-					"Polpa de Açaí ou Coco (2 un)",
-					"Granola (2 col  sopa)",
-					"Protein Veg(2 col sopa)"
-				],
-				[
-					"Bolo Vegano (1 fatia M)",
-					"Fruta (1) ou Suco  uva (100 ml)"	
+					"Bolo Vegano (1 fatia G)"
 				]
 			]	
 		}
 		,
 		{
-			nome:"Jantar 1  18:00",
+			nome:"Jantar   18:30",
 			itens:[
 				[
 					"Sopa de legumes (1 prato de sopa cheio)",
@@ -86,22 +88,20 @@ function getMeals(){
 			]	
 		},
 		{
-			nome:"Jantar 2  20:00 – 21:00",
+			nome:"Lanche com momo  20:30 – 21:00",
 			itens:[
 				[
-					"Sopa de legumes (2 conchas)"
-				],
+					"Fruta ou Suco  uva (200 ml)",
+					"Salada crua colorida",
+					"Protein Veg(1 scoop)"
+				]
+			]	
+		},
+		{
+			nome:"Antes de dormir ",
+			itens:[
 				[
-					"Vegetal A e B: à vontade ou Tabule (1 col servir)",
-					"Arroz integral, Batata doce, Aipim, Cará, Inhame, Macarrão integral (2 sopa)",
-					"Feijão ou Leguminosas (1 concha)",
-					"Protein Veg (1 col sopa) ou Tofu (50g) ou Cogumelo (1 col)"
-				],
-				[
-					"Guacamole (4 col  sopa)",
-					"Queijo vegano (2 fatias)",
-					"Bolacha arroz",
-					"Bolacha arroz"
+					"Protein Veg(1 scoop)"
 				]
 			]	
 		}
