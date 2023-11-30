@@ -83,7 +83,11 @@ function getMeals(){
 		"Tofu (100g) ou Cogumelo (2 col sopa) ou Protein Veg (1 scoop) ou Feijão ou Leguminosas (2 conchas)"
 				],
 				[
-					"Igual ao almoço (mesma quantidade)"
+					"Vegetal A: à vontade ou Tabule (1 col servir)",
+					"Vegetal B (3 col de sopa)",
+					"Arroz integral, Batata doce, Aipim, Cará, Inhame, Macarrão integral (4 de sopa)",
+					"Feijão ou Leguminosas (2 conchas)",
+					"Protein Veg (1.5 scoop) ou Tofu (100g) ou Cogumelo (2 col)"
 				]
 			]	
 		},
