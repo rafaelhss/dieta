@@ -6,41 +6,24 @@ function getMeals(){
 			nome:"Cafe 9:00",
 			itens:[
 				[
-					"Granola (2 col sopa)",
+					"Aveia (2 col sopa)",
 					"Protein veg (1 scoop)",
-					"Fruta",
-					"Fruta"
-				],
-				[
-					"Aveia (2 sopa)",
-					"Chia (1 sobremesa) ",
-					"Leite veg (150ml)",
-					"Protein veg (1 scoop)",
-					"Fruta"
+					"Fruta ou Suco 200ml"
 				]
 			]
 		},
 		{
-			nome:"Lanche 11:00 Pre treino",
+			nome:"Lanche 10:00 Pre treino",
 			itens:[
 				[
-					"Granola (2 col sopa)",
+					"Aveia (2 col sopa)",
 					"Protein veg (2 col sopa)",
-					"Fruta",
 					"Fruta"
-				],
-				[
-					"Granola (2 col sopa)",
-					"Protein veg (2 col sopa)",
-					"Fruta",
-					"Aveia (2 sopa)",
-					"Chia (1 sobremesa) ",
-					"Leite veg (150ml)"
 				]
 			]
 		},
 		{
-			nome:"Treino 12:30",
+			nome:"Treino 11:00",
 			itens:[
 				[
 					"LL ou SmartFit"		
@@ -48,12 +31,11 @@ function getMeals(){
 			]	
 		},
 		{
-			nome:"Almoço 14:00",
+			nome:"Almoço 13:00",
 			itens:[
 				[
 					"Vegetal A: à vontade ou Tabule (1 col servir)",
 					"Vegetal B (3 col de sopa)",
-					"Arroz integral, Batata doce, Aipim, Cará, Inhame, Macarrão integral (4 de sopa)",
 					"Feijão ou Leguminosas (2 conchas)",
 					"Protein Veg (1.5 scoop) ou Tofu (100g) ou Cogumelo (2 col)"
 				]
@@ -64,8 +46,7 @@ function getMeals(){
 			itens:[
 				[
 					"Fruta ou Suco  uva (200 ml)",
-					"Fruta ou Suco  uva (200 ml)",
-					"Granola (2 col sopa)",
+					"Aveia (2 col sopa)",
 					"Protein Veg(2 col sopa)"
 				],
 				
@@ -76,7 +57,7 @@ function getMeals(){
 		}
 		,
 		{
-			nome:"Jantar   18:30",
+			nome:"Jantar   20:30",
 			itens:[
 				[
 					"Sopa de legumes (1 prato de sopa cheio)",
@@ -85,19 +66,8 @@ function getMeals(){
 				[
 					"Vegetal A: à vontade ou Tabule (1 col servir)",
 					"Vegetal B (3 col de sopa)",
-					"Arroz integral, Batata doce, Aipim, Cará, Inhame, Macarrão integral (4 de sopa)",
 					"Feijão ou Leguminosas (2 conchas)",
-					"Protein Veg (1.5 scoop) ou Tofu (100g) ou Cogumelo (2 col)"
-				]
-			]	
-		},
-		{
-			nome:"Lanche com momo  20:30 – 21:00",
-			itens:[
-				[
-					"Fruta ou Suco  uva (200 ml)",
-					"Salada crua colorida",
-					"Protein Veg(1 scoop)"
+					"Protein Veg (1 scoop) ou Tofu (100g) ou Cogumelo (2 col)"
 				]
 			]	
 		},
